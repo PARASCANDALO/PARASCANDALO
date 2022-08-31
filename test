@@ -1,0 +1,5 @@
+pip install lucidsonicdreams
+from lucidsonicdreams import LucidSonicDream
+
+L = LucidSonicDream(song = 'chemical_love.mp3', style = 'abstract photos')
+L.hallucinate(file_name = 'chemical_love.mp4')
